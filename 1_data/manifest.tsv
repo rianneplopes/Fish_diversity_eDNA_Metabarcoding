@@ -1,0 +1,5 @@
+sample-id forward-absolute-filepath reverse-absolute-filepath
+DRR030425 /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030425_1.fastq.gz /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030425_2.fastq.gz
+DRR030426 /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030426_1.fastq.gz /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030426_2.fastq.gz
+DRR030427 /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030427_1.fastq.gz /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030427_2.fastq.gz
+DRR030428 /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030428_1.fastq.gz /workspaces/Fish_diversity_eDNA_Metabarcoding/1_data/1_raw/DRR030428_2.fastq.gz

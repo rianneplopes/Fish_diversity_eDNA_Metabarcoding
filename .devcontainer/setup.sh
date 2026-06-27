@@ -84,8 +84,8 @@ else
     
     # Instalar ferramentas extras de Python e utilitários dentro do ambiente
     log "Instalando utilitários adicionais de Python (Jupyter, Pandas, Seaborn)..."
-    mamba install -n qiime2_amplicon jupyterlab pandas seaborn matplotlib wget curl tree cutadapt pigz sra-tools -c conda-forge -y
-    ok "Utilitários instalados com suesso."
+    mamba install -n qiime2_amplicon jupyterlab pandas seaborn matplotlib wget curl tree cutadapt pigz sra-tools -c bioconda -c conda-forge -y
+    ok "Utilitários instalados com sucesso."
 fi
 # ___ 4. .gitignore
 log "Configurando .gitignore..."

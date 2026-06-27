@@ -97,6 +97,7 @@ if [ ! -f .gitignore ]; then
 .DS_Store
 *.qza
 *.fastq.gz
+*.html
 
 EOF
     ok "Arquivo .gitignore criado com sucesso."

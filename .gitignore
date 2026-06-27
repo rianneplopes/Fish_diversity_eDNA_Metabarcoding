@@ -1,0 +1,8 @@
+.devcontainer/setup.log
+1_data/
+4_output/
+.DS_Store
+*.qza
+*.fastq.gz
+*.html
+

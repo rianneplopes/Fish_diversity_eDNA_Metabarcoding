@@ -30,7 +30,7 @@ echo ""
 
 # ___ 1. Estrutura de projetos
 log "Criando diretórios do projeto..."
-mkdir -p 1_data/1_raw 1_data/2_interium 1_data/3_processed 2_metadata 3_scripts 4_output
+mkdir -p 1_data/1_raw 1_data/2_ref 2_metadata 3_scripts 4_output
 
 # ___ 2. Miniforge3
 
@@ -91,9 +91,6 @@ fi
 log "Configurando .gitignore..."
 if [ ! -f .gitignore ]; then
     cat << EOF > .gitignore
-.devcontainer/setup.log
-1_data/
-4_output/
 .DS_Store
 *.qza
 *.fastq.gz

@@ -6,6 +6,6 @@ qiime dada2 denoise-paired \
   --p-trunc-len-r 130 \
   --p-chimera-method consensus \
   --o-table ../4_output/table.qza \
-  --o-representative-sequences ../4_output/rep-seqs.qza \
-  --o-denoising-stats ../4_output/denoising-stats.qza \
+  --o-representative-sequences ../4_output/rep_seqs.qza \
+  --o-denoising-stats ../4_output/denoising_stats.qza \
   --p-n-threads 0

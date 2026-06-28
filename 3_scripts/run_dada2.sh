@@ -1,3 +1,5 @@
+export TZ="UTC"
+
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs ../4_output/demux.qza \
   --p-trim-left-f 0 \

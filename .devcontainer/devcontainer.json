@@ -38,7 +38,7 @@
   "mounts": [],
 
   "hostRequirements": {
-    "cpus": 2,
+    "cpus": 6,
     "memory": "8gb",
     "storage": "32gb"
   }

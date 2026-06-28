@@ -8,4 +8,4 @@ qiime dada2 denoise-paired \
   --o-table ../4_output/table.qza \
   --o-representative-sequences ../4_output/rep_seqs.qza \
   --o-denoising-stats ../4_output/denoising_stats.qza \
-  --p-n-threads 0
+  --p-n-threads 4

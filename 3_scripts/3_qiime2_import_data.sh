@@ -1,3 +1,5 @@
+export TZ="UTC"
+
 qiime tools import \
     --type 'SampleData[PairedEndSequencesWithQuality]' \
     --input-path ../2_metadata/manifest.tsv \

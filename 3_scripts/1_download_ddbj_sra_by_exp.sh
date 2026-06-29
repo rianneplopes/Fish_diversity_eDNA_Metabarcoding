@@ -3,7 +3,7 @@ DR_DIR="../1_data/1_raw/"
 BASE_URL="https://ddbj.nig.ac.jp/public/ddbj_database/dra/sra/ByExp/sra/DRX"
 DRX="DRX027"
 
-# Lista das duplas RUN:EXP que você encontrou para Bise
+# Listar duplas EXP:RUN
 RUNS=(
   "DRR030428:DRX027444" # Bise
   "DRR030427:DRX027443" # Bise

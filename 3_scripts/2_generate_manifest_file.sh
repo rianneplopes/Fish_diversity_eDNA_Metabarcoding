@@ -2,7 +2,7 @@ RD_DIR=$(realpath "../1_data/1_raw")
 MD_DIR="../2_metadata"
 MANIFEST="${MD_DIR}/manifest.tsv"
 
-printf "sample-id\tforward-absolute-filepath\treverse-absolute-filepath\n"
+printf "sample-id\tforward-absolute-filepath\treverse-absolute-filepath\n" > "$MANIFEST"
 
 for RUN in DRR030421 DRR030422 DRR030423 DRR030424 \
            DRR030425 DRR030426 DRR030427 DRR030428
@@ -13,3 +13,6 @@ do
         "$RD_DIR" "$RUN" \
         >> "$MANIFEST"
 done
+
+echo "Arquivo manifest.tsv gerado com sucesso:"
+cat "$MANIFEST"

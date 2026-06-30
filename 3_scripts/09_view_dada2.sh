@@ -1,17 +1,18 @@
 export TZ="UTC"
+OP_DIR="../4_output/1_qiime_artifacts/"
 
 # Estatística do denoising
 qiime metadata tabulate \
-  --m-input-file ../4_output/denoising_stats.qza \
-  --o-visualization ../4_output/denoising_stats.qzv
+  --m-input-file ${OP_DIR}denoising_stats.qza \
+  --o-visualization ${OP_DIR}denoising_stats.qzv
 
 # Resumo da tabela de features (ASVs)
 qiime feature-table summarize \
-  --i-table    ../4_output/table.qza \
+  --i-table ${OP_DIR}table.qza \
   --m-sample-metadata-file ../2_metadata/sample_metadata.tsv \
-  --o-visualization ../4_output/table.qzv
+  --o-visualization ${OP_DIR}table.qzv
 
 # Tabela das sequências das ASVs
 qiime feature-table tabulate-seqs \
-  --i-data    ../4_output/rep_seqs.qza \
-  --o-visualization ../4_output/rep_seqs.qzv
+  --i-data ${OP_DIR}rep_seqs.qza \
+  --o-visualization ${OP_DIR}rep_seqs.qzv

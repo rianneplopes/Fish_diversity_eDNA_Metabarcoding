@@ -1,12 +1,12 @@
 export TZ="UTC"
 
 qiime cutadapt trim-paired \
-  --i-demultiplexed-sequences ../4_output/demux_subsample.qza \
+  --i-demultiplexed-sequences ../4_output/1_qiime_artifacts/demux_subsample.qza \
   --p-front-f GTCGGTAAAACTCGTGCCAGC \
   --p-front-r CATAGTGGGGTATCTAATCCCAGTTTG \
   --p-cores 4 \
-  --p-match-read-wildcards \ # Aceita curingas
-  --o-trimmed-sequences ../4_output/demux_trimmed.qza \
+  --p-match-read-wildcards \
+  --o-trimmed-sequences ../4_output/1_qiime_artifacts/demux_trimmed.qza \
   --verbose
 
 

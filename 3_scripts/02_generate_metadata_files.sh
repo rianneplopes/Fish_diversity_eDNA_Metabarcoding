@@ -18,11 +18,11 @@ echo "Arquivo manifest.tsv gerado com sucesso:"
 cat "$MANIFEST"
 
 MD_DIR="../2_metadata"
-METADATA="${MD_DIR}/sample_metadata2.tsv"
+METADATA="${MD_DIR}/sample_metadata.tsv"
 
-printf "sample-id\tsample_name\tgeo_local\tescala_local\tdata_coleta\tlatitude\tlongitude\n" > "$METADATA"
+printf "sample-id\tgeo_local\tescala_local\tdata_coleta\tlatitude\tlongitude\n" > "$METADATA"
 
-printf "#q2:types\tcategorical\tcategorical\tcategorical\tcategorical\tnumeric\tnumeric\n" >> "$METADATA"
+printf "#q2:types\tcategorical\tcategorical\tcategorical\tnumeric\tnumeric\n" >> "$METADATA"
 
 for RUN in DRR030421 DRR030422 DRR030423 DRR030424 DRR030425 DRR030426 DRR030427 DRR030428
 do
@@ -40,8 +40,8 @@ do
     
     DATA="2014-06-03"
 
-    printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\n" \
-        "$RUN" "$RUN" "$LOCAL" "$ESCALA" "$DATA" "$LAT" "$LONG" >> "$METADATA"
+    printf "%s\t%s\t%s\t%s\t%s\t%s\n" \
+        "$RUN" "$LOCAL" "$ESCALA" "$DATA" "$LAT" "$LONG" >> "$METADATA"
 done
 
 echo "Arquivo sample_metadata.tsv gerado com sucesso:"

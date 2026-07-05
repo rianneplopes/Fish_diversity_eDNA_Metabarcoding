@@ -1,10 +1,10 @@
 export TZ="UTC"
 
-mkdir ../4_output/4_core_metrics/
+mkdir ../4_output/1_qiime_artifacts/core_metrics_diversity/
 
 ARTIFACTS_DIR="../4_output/1_qiime_artifacts"
 METADATA_DIR="../2_metadata"
-CORE_METRICS_DIR="../4_output/4_core_metrics"
+CORE_METRICS_DIR="../4_output/1_qiime_artifacts/core_metrics_diversity"
 LOG_DIR="../4_output/3_logs"
 
 TABLE_QZA="${ARTIFACTS_DIR}/table.qza"

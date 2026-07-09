@@ -41,7 +41,7 @@ O processamento foi totalmente automatizado e dividido em blocos lógicos numera
 Para fins de reprodutibilidade, as principais decisões metodológicas aplicadas nos scripts foram:
 * **`cutadapt`:** Remoção estrita dos primers nas regiões *Forward* e *Reverse*.
 * **`DADA2`:** Truncamento das leituras *Forward* em **115 pb** e *Reverse* em **120 pb**, garantindo uma zona de sobreposição (*overlap*) segura de aproximadamente 65 pb para o *merge*.
-* **Mitohelper:** Base de dados curada e especializada para o fragmento mitocondrial 12S.
+* **Mitohelper:** Base de dados curada e especializada para o fragmento mitocondrial 12S (https://doi.org/10.1002/edn3.187).
 * **Rarefação:** Fixada em **45.000 reads por amostra** para normalização do esforço amostral de diversidade.
 
 ## 📈 Análise Downstream (Python)
@@ -85,3 +85,5 @@ Os principais resultados gerados pelas análises downstream em Python podem ser 
 <p align="center">
   <img src="5_notebooks/figures/barplot_taxonomia_n8.png" width="80%" alt="Gráfico de Barras Empilhadas da Taxonomia"/>
 </p>
+
+## Referências

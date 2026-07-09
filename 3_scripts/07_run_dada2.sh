@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 export TZ="UTC"
 
 qiime dada2 denoise-paired \

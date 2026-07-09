@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Declara diretórios padrão
 OUTPUT_DIR="../4_output/2_exported_tables"
 QIIME_ART_DIR="../4_output/1_qiime_artifacts"

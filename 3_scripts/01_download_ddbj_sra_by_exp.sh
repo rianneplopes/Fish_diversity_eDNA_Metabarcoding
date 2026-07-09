@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Definir diretório e variáveis
 DR_DIR="../1_data/1_raw/"
 BASE_URL="https://ddbj.nig.ac.jp/public/ddbj_database/dra/sra/ByExp/sra/DRX"

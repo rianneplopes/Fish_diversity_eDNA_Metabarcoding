@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 REF_DIR="../1_data/2_ref"
 
 URL_SEQS="https://github.com/aomlomics/mitohelper/raw/master/QIIME-compatible/12S-seqs-derep-uniq.qza"

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 RD_DIR=$(realpath "../1_data/1_raw")
 MD_DIR="../2_metadata"
 MANIFEST="${MD_DIR}/manifest.tsv"

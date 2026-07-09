@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 export TZ="UTC"
 
 mkdir ../4_output/1_qiime_artifacts/core_metrics_diversity/

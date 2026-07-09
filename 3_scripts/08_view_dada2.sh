@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 export TZ="UTC"
 OP_DIR="../4_output/1_qiime_artifacts/"
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 REF_DIR="../1_data/2_ref"
 OP_DIR="../4_output/1_qiime_artifacts"
 

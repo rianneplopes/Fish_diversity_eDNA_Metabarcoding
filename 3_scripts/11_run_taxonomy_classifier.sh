@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 export TZ="UTC"
 
 REF_DIR="../1_data/2_ref"

@@ -6,8 +6,6 @@ O projeto foi desenvolvido dentro do escopo da disiciplina de Bioinformática 20
 
 Foram utilizados dados públicos de sequenciamento de DNA ambiental (eDNA) e a ferramenta core **QIIME 2** para a resolução de Variantes de Sequência de Amplicons (ASVs).
 
----
-
 ## 📊 Desenho Amostral e Dados
 
 * **Fonte dos Dados:** Dados brutos de sequenciamento *paired-end* depositados no **DDBJ** (DNA Databank of Japan).
@@ -16,8 +14,6 @@ Foram utilizados dados públicos de sequenciamento de DNA ambiental (eDNA) e a f
   * 4 amostras de ambiente artificial (Aquário);
 * **Marcador Molecular:** Região do gene mitocondrial **12S rRNA** (~170 pb).
 * **Primers utilizados:** MiFish (https://doi.org/10.1098/rsos.150088).
-
----
 
 ## 🚀 Estrutura do Pipeline (Scripts Shell)
 
@@ -39,7 +35,6 @@ O processamento foi totalmente automatizado e dividido em blocos lógicos numera
 ├── 13_diversity.sh                  # Rarefação (45k reads), cálculo de Diversidade Alfa e Beta (Jaccard)
 └── 14_export.sh                     # Exportação das matrizes de abundância e taxonomia para análise downstream
 ```
----
 
 ## 🛠️ Parâmetros Críticos do Processamento
 
@@ -49,8 +44,6 @@ Para fins de reprodutibilidade, as principais decisões metodológicas aplicadas
 * **Mitohelper:** Base de dados curada e especializada para o fragmento mitocondrial 12S.
 * **Rarefação:** Fixada em **45.000 reads por amostra** para normalização do esforço amostral de diversidade.
 
----
-
 ## 📈 Análise Downstream (Python)
 
 Os arquivos exportados pelo QIIME 2 foram processados em ambiente Jupyter Notebook (Python 3) utilizando as bibliotecas `pandas`, `matplotlib` e `seaborn` para gerar:
@@ -59,8 +52,6 @@ Os arquivos exportados pelo QIIME 2 foram processados em ambiente Jupyter Notebo
 3. **Ordenação PCoA (Distância de Jaccard):** Visualização do agrupamento comunitário, validado estatisticamente via **PERMANOVA** ($\text{Pseudo-F} = 1,73$; $p = 0,031$).
 4. **Gráfico de Barras Empilhadas:** Perfil taxonômico em nível de Família focado nas top 15 famílias abundantes e agrupamento em "Outros" (corrigido para fechamento exato em 100%).
 
----
-
 ## 🧰 Pré-requisitos
 
 Para rodar este pipeline, você precisará de:
@@ -68,8 +59,6 @@ Para rodar este pipeline, você precisará de:
 * QIIME 2 (versão utilizada: `2024.10.1`)
 * Python 3.x (`pandas`, `matplotlib`, `seaborn`)
 * Ferramentas de terminal: `wget` ou `curl`, `sra-tools`
-
----
 
 ## 🧑‍💻 Como Executar
 
@@ -83,10 +72,6 @@ chmod +x *.sh
 ./01_download_ddbj_sra_by_exp.sh
 # Prossiga sequencialmente executando os demais scripts até o 14_export.sh
 ```
-
----
-
----
 
 ## 📊 Galeria de Resultados
 

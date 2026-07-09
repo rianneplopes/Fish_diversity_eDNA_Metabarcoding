@@ -60,7 +60,7 @@ Para rodar este pipeline, você precisará de:
 * Python 3.x (`pandas`, `matplotlib`, `seaborn`)
 * Ferramentas de terminal: `wget` ou `curl`, `sra-tools`
 
-## 🧑‍💻 Como Executar
+## 👩🏾‍💻 Como Executar
 
 Os scripts foram desenhados para serem executados sequencialmente. Certifique-se de dar permissão de execução antes de iniciar o pipeline:
 

@@ -4,6 +4,7 @@
 # Fish diversity eDNA Metabarcoding - setup.sh
 # Rianne Passos Lopes
 # Cecília Feitoza
+# Silionamã Dantas
 # Executado automaticamente após a criação do container (postCreateCommand)
 # ________________________________________________________________________
 set -euo pipefail
@@ -19,7 +20,7 @@ echo -e "${BOLD}║                  Fish diversity eDNA Metabarcoding          
 echo -e "${BOLD}║                      Configuração de ambiente                      ║${RESET}"
 echo -e "${BOLD}╠════════════════════════════════════════════════════════════════════╣${RESET}"
 echo -e "${BOLD}║                                                                    ║${RESET}"
-echo -e "${BOLD}║                     |\   \\\\__      o                             ║${RESET}"
+echo -e "${BOLD}║                     |\   \\\\\\\\\\\\\__      o                             ║${RESET}"
 echo -e "${BOLD}║                     | \_/    o \      o                            ║${RESET}"
 echo -e "${BOLD}║                     > _   (( <_   oo                               ║${RESET}"
 echo -e "${BOLD}║                     | / \__+___/                                   ║${RESET}"

@@ -3,8 +3,8 @@
 # ________________________________________________________________________
 # Fish diversity eDNA Metabarcoding - setup.sh
 # Rianne Passos Lopes
-# Cecília Feitoza
-# Silionamã Dantas
+# Maria Cecília Feitoza Gomes
+# Silionamã Pereira Dantas
 # Executado automaticamente após a criação do container (postCreateCommand)
 # ________________________________________________________________________
 set -euo pipefail
@@ -31,7 +31,7 @@ echo ""
 
 # ___ 1. Estrutura de projetos
 log "Criando diretórios do projeto..."
-mkdir -p 1_data/1_raw 1_data/2_ref 2_metadata 3_scripts 4_output 5_notebooks
+mkdir -p 1_data/1_raw 1_data/2_ref 2_metadata 3_scripts 4_output 5_notebooks 6_report
 
 # ___ 2. Miniforge3
 

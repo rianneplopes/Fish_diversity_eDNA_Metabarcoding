@@ -8,7 +8,7 @@ Foram utilizados dados públicos de sequenciamento de DNA ambiental (eDNA) e a f
 
 Para acessar o relatório completo em formato científico, clique no link abaixo:
 
-📄 [Relatório (PDF)](./06_report/main.pdf)
+📄 [Relatório (PDF)](06_report/main.pdf)
 
 ## 📊 Desenho Amostral e Dados
 

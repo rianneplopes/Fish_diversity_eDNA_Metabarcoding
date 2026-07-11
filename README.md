@@ -89,5 +89,3 @@ Os principais resultados gerados pelas análises downstream em Python podem ser 
 <p align="center">
   <img src="5_notebooks/figures/barplot_taxonomia_n8.png" width="80%" alt="Gráfico de Barras Empilhadas da Taxonomia"/>
 </p>
-
-## Referências

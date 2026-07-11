@@ -88,7 +88,19 @@ else
     mamba install -n qiime2_amplicon jupyterlab pandas seaborn matplotlib wget curl tree cutadapt pigz sra-tools -c bioconda -c conda-forge -y
     ok "Utilitários instalados com sucesso."
 fi
-# ___ 4. .gitignore
+
+# ___ 4. LaTex
+
+log "Instalando dependências do LaTex..."
+
+sudo apt-get update && sudo apt-get install -y \\
+    texlive-latex-base texlive-latex-recommended \\
+    texlive-fonts-recommended texlive-science \\
+    texlive-latex-extra texlive-lang-portuguese
+    
+ok "Dependências do LaTex instalados com sucesso."
+    
+# ___ 5. .gitignore
 log "Configurando .gitignore..."
 if [ ! -f .gitignore ]; then
     cat << EOF > .gitignore
@@ -102,7 +114,7 @@ EOF
 else
     warn ".gitignore já existe. Mantido sem alterações."
 fi
-# ___ 5. Mensagem final
+# ___ 6. Mensagem final
 echo ""
 echo -e "${GREEN}${BOLD}╔══════════════════════════════════════════════════════════╗${RESET}"
 echo -e "${GREEN}${BOLD}║                Ambiente pronto para uso!                 ║${RESET}"

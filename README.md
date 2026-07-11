@@ -6,6 +6,10 @@ O projeto foi desenvolvido dentro do escopo da disiciplina de Bioinformática 20
 
 Foram utilizados dados públicos de sequenciamento de DNA ambiental (eDNA) e a ferramenta core **QIIME 2** para a resolução de Variantes de Sequência de Amplicons (ASVs).
 
+Para acessar o relatório completo em formato científico, clique no link abaixo:
+
+📄 [Relatório (PDF)](./06_report/main.pdf)
+
 ## 📊 Desenho Amostral e Dados
 
 * **Fonte dos Dados:** Dados brutos de sequenciamento *paired-end* depositados no **DDBJ** (DNA Databank of Japan).
